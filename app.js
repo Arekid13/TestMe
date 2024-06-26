@@ -20,7 +20,7 @@ async function sendMessage() {
       },
       body: JSON.stringify({
         // Update with the actual codename for GPT-4o
-        model: 'insert_gpt4o_codename',
+        model: 'gpt-4-turbo',
         messages: [{ role: 'user', content: userInput }]
       })
     });
