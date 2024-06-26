@@ -4,9 +4,11 @@
     <title>Chat with GPT</title>
 </head>
 <body>
-    <h1>Chat with GPT</h1>
+    <h1>Chat with your Tutor</h1>
     <input type="text" id="userInput" placeholder="Enter your message here">
     <button onclick="sendMessage()">Send</button>
+    <br><br>
+    <input type="file" id="fileInput" accept=".txt,.pdf,.doc,.docx" onchange="uploadFile()">
     <div id="response"></div>
     <script src="app.js"></script>
 </body>
